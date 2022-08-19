@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('office4.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Quick Office and Room rental finder.</h1>
+    </header>
+    <br>
+    <br>
+    <br>
+    <script defer src="home.js"></script>
+    <form id="form" action="" method="post" data-netlify="true">
+        <fieldset>
+            <div class="all">
+                <div class="places">
+                    <h2>
+                        Office space rental application
+                    </h2>
+                    <br>
+                    <label for="office_Space"><h3>Office finder</h3></label>
+                    <input type="radio" name="office_Space" id="office_Space" value="office_Space" required>
+                    <br>
+                    <label for="name">
+                        <h3>Name</h3>
+                    </label>
+                    <input id="name" type="text" placeholder="Name"  oninput="this.value = this.value.replace(/[^A-z ]/g, '').replace(/(\..*)\./g, '$1');" required>
+    
+    
+                    <br>
+                    <label for="surname">
+                        <h3>Surname</h3>
+                    </label>
+                    <input id="surname" type="text" placeholder="surname" required>
+                    <h4>
+    
+                        <label for="gmail">
+                            <h3>Email address</h3>
+                        </label>
+                        <input type="email" name="gmail" id="email_address" email="email" placeholder="Email address"
+                            required>
+    
+                        <label for="buget">
+                            <h3>Your Budget</h3>
+                        </label>
+                        <input type="number" name="budget" id="budget" placeholder="Your amount" required>
+                        <br>
+                        <label for="cell">
+                            <h3>Contact number</h3>
+                        </label>
+                        <input type="text" id="cell" name="cell"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                            maxlength="10" required>
+                        <br>
+                        <label for="location1">
+                            <h3>Location</h3>
+                        </label>
+                        <input type="text" placeholder="Location" id="location1" placeholder="location1" name="location1">
+                        <br>
+                </div>
+                    <h3>Duration/Period</h3>
+                    <div class="duration clearfix">
+                        <div class="week clearfix">
+                            <label for="week">
+                                <h3>Week</h3>
+                            </label>
+                            <input type="radio" name="checked" id="checking" class="check" value="week" required>
+                        </div>
+
+                        <div class="month clearfix">
+                            <label for="month">
+                                <h3>Month</h3>
+                            </label>
+                            <input type="radio" name="checked" id="checking" class="check" value="month" required>
+                        </div>
+
+                        <div class="year clearfix">
+                            <label for="year">
+                                <h3>Year</h3>
+                            </label>
+                            <input type="radio" name="checked" id="checking" class="check" value="year" required>
+                        </div>
+                    </div>
+
+                    <div class="droping clearfix">
+                        <div class="drop1">
+
+                            <label for="drop3">
+                                <h3>A copy of your ID or Passport:</h3>
+                            </label>
+                            <input type="file" name="drop3" id="drop3" required>
+                        </div>
+
+                        <div class="drop2">
+                            <label for="drop4"><h3>A proof of business registration</h3></label>
+                            <input type="file" name="drop4" id="drop4" required>
+                        </div>
+
+                       
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="turn_back">
+                        <a href="index.html" > Back to home page </a>
+    
+                    </div>
+                    
+                    <br>
+        </fieldset>
+    </form>
+
+    <br>
+</body>
+<footer>
+    <div class="contents">
+        <div class="address">
+            <label class="fh1"><strong><h3>Our Address</h3> <br><br></strong> </label>
+            54 Albert Rd<br> Woodstock<br>Cape Town<br> 7915
+
+        </div>
+        <div class="contact">
+            <label class="fh1"><strong><h3>Our Contacts</h3> <br><br></strong> </label>
+            Email - findmyspace@gmail.com <br>
+            Contact number - 0789123030
+        </div>
+        <div class="social">
+            <label class="fh1"><strong><h3>Our social media</h3> <br><br></strong> </label>
+            <a href="https://twitter.com/home?lang=en">
+                <i class="fa fa-twitter-square" style="font-size:60px;color:black;"></i></a>
+
+            <a href="https://www.instagram.com/">
+                <i class="fa fa-instagram" style="font-size:60px;color:black;"></i>
+            </a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"
+                    style="font-size:60px;color:black;"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+</html>

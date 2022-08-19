@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url('room2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Quick Office and Room rental finder.</h1>
+    </header>
+    <br>
+    <br>
+    <br>
+    <script defer src="home.js"></script>
+
+    <form id="form" action="" method="post" data-netlify="true">
+        <fieldset>
+            <div class="all">
+                <div class="places">
+                    <h2>
+                        Room space rental application
+                    </h2>
+                    <br>
+                    <label for="room_space"><h3>Room finder</h3></label>
+                    <input type="radio" name="room_space" id="room_space" value="room_space" required> 
+                    <label for="name">
+                        <h3>Name</h3>
+                    </label>
+                    <input id="name" type="text" placeholder="Name" required>
+
+
+                    <br>
+                    <label for="surname">
+                        <h3>Surname</h3>
+                    </label>
+                    <input id="surname" type="text" placeholder="surname" required>
+                    <h4>
+
+                        <label for="gmail">
+                            <h3>Email address</h3>
+                        </label>
+                        <input type="email" name="gmail" id="email_address" email="email" placeholder="Email address"
+                            required>
+
+                        <label for="buget">
+                            <h3>Your Budget</h3>
+                        </label>
+                        <input type="number" name="budget" id="budget" required>
+                        <br>
+                        <label for="cell">
+                            <h3>Contact number</h3>
+                        </label>
+                        <input type="text" id="cell" name="cell"
+                            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                            maxlength="10" required>
+                        <br>
+                        <label for="location">
+                            <h3>Location</h3>
+                        </label>
+
+                        <input type="text" placeholder="Location" id="location" name="Target_location">
+                        <br>
+                </div>
+
+                <h3>Duration/Period</h3>
+                <div class="duration clearfix">
+                    <div class="week clearfix">
+                        <label for="week">
+                            <h3>For a Week</h3>
+                        </label>
+                        <input type="radio" name="checked" id="checking" class="check" value="Week/s" required>
+                    </div>
+
+                    <div class="month clearfix">
+                        <label for="month">
+                            <h3>FOr a Month</h3>
+                        </label>
+                        <input type="radio" name="checked" id="checking" class="check" value="Month/s" required>
+                    </div>
+
+                    <div class="year clearfix">
+                        <label for="year">
+                            <h3> For Year +</h3>
+                        </label>
+                        <input type="radio" name="checked" id="checking" class="check" value="Year/s" required>
+                    </div>
+                </div>
+
+                <div class="droping clearfix">
+                    <div class="drop1">
+
+                        <label for="drop1">
+                            <h3>A copy of your ID or Passport:</h3>
+                        </label>
+                        <input type="file" name="drop1" id="drop1" required>
+                    </div>
+
+                    <div class="drop2">
+                        <label for="drop2">
+                            <h3>Copy of your pay sleep/bankstatement: </h3>
+                        </label>
+                        <input type="file" name="drop2" id="drop2" required>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="turn_back">
+                    <a href="index.html" > Back to home page </a>
+
+                </div>
+
+                <br>
+        </fieldset>
+
+    </form>
+    <br><br>
+</body>
+<br>
+<br>
+<footer>
+    <div class="contents">
+        <div class="address">
+            <label class="fh1"><strong><h3>Our Address</h3> <br><br></strong> </label>
+            54 Albert Rd<br> Woodstock<br>Cape Town<br> 7915
+
+        </div>
+        <div class="contact">
+            <label class="fh1"><strong><h3>Our Contacts</h3> <br><br></strong> </label>
+            Email - findmyspace@gmail.com <br>
+            Contact number - 0789123030
+        </div>
+        <div class="social">
+            <label class="fh1"><strong><h3>Our social media</h3> <br><br></strong> </label>
+            <a href="https://twitter.com/home?lang=en">
+                <i class="fa fa-twitter-square" style="font-size:60px;color:black;"></i></a>
+
+            <a href="https://www.instagram.com/">
+                <i class="fa fa-instagram" style="font-size:60px;color:black;"></i>
+            </a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"
+                    style="font-size:60px;color:black;"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+</html>

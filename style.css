@@ -1,0 +1,166 @@
+.work {
+    border: 1em;
+    color: aliceblue;
+}
+
+.find_office {
+    text-align: center;
+}
+
+.find_room {
+    text-align: center;
+}
+
+fieldset {
+    text-align: center;
+    margin-left: 20em;
+    margin-right: 20em;
+    align-items: center;
+    margin-bottom: 2em;
+    /* background-color: azure; */
+    color: black;
+}
+
+h1 {
+    color: rgb(146, 141, 132);
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(41, 49, 49);
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* .thank_you {
+    text-align: center;
+
+} */
+
+h3 {
+    color: rgb(41, 49, 49);
+    background-color: transparent;
+    border-radius: 1em;
+    border-left-width: 5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: x-large;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.918);
+
+    text-underline-position: below;
+}
+
+.contents {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social{
+    text-align: right;
+    padding-left: 430px;
+}
+.address{
+    text-align: left;
+    top: 0%;
+    font-size: large;
+    padding-left: 70px;
+}
+.contact{
+    text-align: left;
+    padding-left: 380px;
+}
+.fh1{
+    font-size: larger;
+}
+
+
+.duration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: 2em;
+}
+
+
+
+.us {
+    color: rgb(146, 141, 132);
+    margin-left: 14em;
+    margin-right: 12em;
+}
+
+.about_us {
+    text-align: center;
+    color: rgb(146, 141, 132);
+}
+
+header {
+    background-color: azure;
+    padding-bottom: 0.5em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer {
+    background-color: beige;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+/* body {
+    background-color: #20c997;
+    background-image: url('pexels-cadeau-maestro-1170412.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    } */
+
+
+.all {
+    align-self: center;
+}
+
+footer {
+    background-color: azure;
+    padding-top: 2em;
+}
+
+.typo {
+    color: rgb(41, 49, 49);
+    background-color: transparent;
+    border-radius: 1em;
+    border-left-width: 5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: x-large;
+
+}
+button {
+    color: coral;
+    background-color: rgb(170, 160, 148);
+    font-size: large;
+}
+
+.turn_back {
+    color: rgb(165, 133, 121);
+    background-color: rgb(170, 160, 148);
+    font-size: large;
+}
+
+.button {
+    background-color: burlywood;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
